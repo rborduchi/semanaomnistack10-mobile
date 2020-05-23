@@ -31,6 +31,8 @@ export default function Main() {
     return null;
   }
 
+  //todo iniciar 1:02:43
+
   return (
     <MapView initialRegion={currentRegion} style={styles.map}>
       <Marker coordinate={{ latitude: -21.1223367, longitude: -48.9566217 }}>
